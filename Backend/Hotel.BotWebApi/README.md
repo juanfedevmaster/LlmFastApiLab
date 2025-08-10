@@ -58,13 +58,13 @@ Hotel.BotWebApi/
 ### Local Development (Windows)
 
 1. **Clone the repository**
-   `ash
+   `Bash
    git clone <repository-url>
    cd Hotel.BotWebApi
    `
 
 2. **Create a virtual environment**
-   `ash
+   `Bash
    python -m venv venv
    venv\Scripts\activate  # Windows
    # or
@@ -72,7 +72,7 @@ Hotel.BotWebApi/
    `
 
 3. **Install dependencies**
-   `ash
+   `Bash
    pip install -r requirements.txt
    `
 
@@ -140,7 +140,7 @@ The application is optimized for Linux deployment on platforms like:
 
 #### Requirements Installation on Linux
 
-`ash
+`Bash
 pip install -r requirements.txt
 `
 
@@ -177,13 +177,13 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ### Development Mode
 
-`ash
+`Bash
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 `
 
 ### Production Mode
 
-`ash
+`Bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 `
 
@@ -226,7 +226,7 @@ If installation fails on Windows:
 
 #### Linux
 Usually works out of the box. If issues occur:
-`ash
+`Bash
 # Install build tools
 sudo apt-get update
 sudo apt-get install build-essential
@@ -274,10 +274,6 @@ pip install llama-cpp-python==0.2.90
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## License
-
-[Add your license information here]
 
 ## Support
 
